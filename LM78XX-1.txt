@@ -1,0 +1,35 @@
+# Kicad module converted to gEDA PCB footprint by: Erich Heinzle
+# Kicad module author: Francois Lambert
+# No warranties express or implied
+# Footprint converted from Kicad Module LM78XX-1
+# dist-license: GPL
+# use-license: unlimited
+# Users of the foot print must ensure that the solder mask reliefs and clearances
+# are compatible with the PCB manufacturer's process tolerances
+# Pins and SMD pads have been converted from Kicad foot prints which
+# do not have solder mask relief or clearances specified.
+# Fairly sane default values have been used for solder mask relief and clearances.
+# Footprint = module name: LM78XX-1
+# Text descriptor count: 1
+# Draw segment object count: 10
+# Draw circle object count: 0
+# Draw arc object count: 0
+# Pad count: 4
+#
+Element["" "LM78XX-1" "" "" 0 0 30000 0 1 100 ""]
+(
+ElementLine[0 -10000 20000 -10000 1200]
+ElementLine[0 0 20000 0 1200]
+ElementLine[0 10000 20000 10000 1200]
+ElementLine[20000 -15000 20000 20000 1200]
+ElementLine[20000 20000 80000 20000 1200]
+ElementLine[80000 20000 80000 -20000 1200]
+ElementLine[20000 -15000 20000 -20000 1200]
+ElementLine[50000 15000 50000 -20000 1200]
+ElementLine[50000 15000 50000 20000 1200]
+ElementLine[20000 -20000 80000 -20000 1200]
+Pin[65000 0 35000 2000 35800 12000 "" "4" "square"]
+Pin[0 -10000 7000 2000 7800 4500 "" "1" ""]
+Pin[0 0 7000 2000 7800 4500 "" "3" "square"]
+Pin[0 10000 7000 2000 7800 4500 "" "2" ""]
+)

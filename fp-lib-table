@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Potentiometres)(type Legacy)(uri "$(KIPRJMOD)\\Potentiometres.mod")(options "")(descr ""))
+  (lib (name Regulators)(type Legacy)(uri "$(KIPRJMOD)\\Gajda_power.mod")(options "")(descr ""))
+  (lib (name 78xx_with_heatsink)(type Legacy)(uri "$(KIPRJMOD)\\78xx_with_heatsink.mod")(options "")(descr ""))
+  (lib (name 78xx_with_heatsink1)(type Legacy)(uri "$(KIPRJMOD)\\78xx_with_heatsink1.mod")(options "")(descr ""))
+)

@@ -1,0 +1,307 @@
+Cmp-Mod V01 Created by PcbNew   date = 11/15/15 04:08:48
+
+BeginCmp
+TimeStamp = 56473AE5
+Path = /5642FB5E
+Reference = B12V1;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473AF1
+Path = /5636DB25
+Reference = C1;
+ValeurCmp = 47uF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473AFD
+Path = /5636DA4D
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B09
+Path = /5635BB21
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B15
+Path = /5635AE8F
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B21
+Path = /5635CB4D
+Reference = C5;
+ValeurCmp = 0.01uF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B2D
+Path = /5635A6D4
+Reference = C6;
+ValeurCmp = 0.01uF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B39
+Path = /56358FF0
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B45
+Path = /56358D14
+Reference = C8;
+ValeurCmp = 0.01uF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B51
+Path = /56361539
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B61
+Path = /5635E78B
+Reference = D1;
+ValeurCmp = D;
+IdModule  = Discret:D3;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B71
+Path = /5635EBC4
+Reference = D2;
+ValeurCmp = D_Schottky;
+IdModule  = Discret:D3;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B7D
+Path = /5640E15E
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B89
+Path = /5640E0D5
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473B99
+Path = /563E3D9D
+Reference = D5;
+ValeurCmp = D;
+IdModule  = Discret:D3;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473BA2
+Path = /5636EF25
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = Fuse_Holders_and_Fuses:BladeFuse-Mini;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473BB1
+Path = /5635B2F9
+Reference = K1;
+ValeurCmp = SPST;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473BC0
+Path = /5635955E
+Reference = K2;
+ValeurCmp = SPST;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473BC7
+Path = /5647BF88
+Reference = Panel2;
+ValeurCmp = Battery;
+IdModule  = Discret:C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473BD5
+Path = /5635C8AB
+Reference = Q1;
+ValeurCmp = Q_NPN_BCE;
+IdModule  = Housings_TO-92:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473BE3
+Path = /5635C16E
+Reference = Q2;
+ValeurCmp = Q_PNP_BCE;
+IdModule  = Housings_TO-92:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473BF1
+Path = /5635E183
+Reference = Q3;
+ValeurCmp = Q_PMOS_DGS;
+IdModule  = Housings_TO-92:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473BF9
+Path = /56359500
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C01
+Path = /5635EF8D
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C09
+Path = /56412FE1
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C11
+Path = /5635C323
+Reference = R5;
+ValeurCmp = 100K;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C19
+Path = /5640D75E
+Reference = R6;
+ValeurCmp = 750;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C21
+Path = /56359C1C
+Reference = R7;
+ValeurCmp = 4.7M;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C29
+Path = /5635B23E
+Reference = R8;
+ValeurCmp = 100K;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C31
+Path = /563588CF
+Reference = R9;
+ValeurCmp = 200K;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C39
+Path = /56358B81
+Reference = R10;
+ValeurCmp = 180K;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C41
+Path = /56358E8D
+Reference = R11;
+ValeurCmp = 75K;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C49
+Path = /56359479
+Reference = R12;
+ValeurCmp = 300K;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C51
+Path = /5635B9F2
+Reference = R13;
+ValeurCmp = 100;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C70
+Path = /5635F474
+Reference = TZ1;
+ValeurCmp = 27V;
+IdModule  = Diodes_SMD:SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C77
+Path = /56474C92
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = 78xx_with_heatsink1:78xx_with_heatsink-78XXH;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C8E
+Path = /563F17DE
+Reference = U2;
+ValeurCmp = 324URJA;
+IdModule  = SMD_Packages:SSOP-14;
+EndCmp
+
+BeginCmp
+TimeStamp = 56473C9F
+Path = /56359386
+Reference = VR1;
+ValeurCmp = 100K;
+IdModule  = TO_SOT_Packages_THT:TO-220_Neutral123_Vertical;
+EndCmp
+
+EndListe

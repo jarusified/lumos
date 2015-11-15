@@ -1,0 +1,146 @@
+.HEA
+.TIM 11/01/15 21:08:07
+.APP "Eeschema 4.0.0-rc1-stable"
+
+.ADD_COM     R9     "200K"
+.ADD_COM     R10     "180K"
+.ADD_COM     C8     "0.01uF"
+.ADD_COM     R11     "75K"
+.ADD_COM     C7     "0.1uF"
+.ADD_COM     VR1     "100K"
+.ADD_COM     R12     "300K"
+.ADD_COM     R1     "100"
+.ADD_COM     K2     "SPST"
+.ADD_COM     R7     "4.7M"
+.ADD_COM     C6     "0.01uF"
+.ADD_COM     U1     "78L05"
+.ADD_COM     C4     "0.1uF"
+.ADD_COM     R8     "100K"
+.ADD_COM     K1     "SPST"
+.ADD_COM     R13     "100"
+.ADD_COM     C3     "0.1uF"
+.ADD_COM     Q2     "Q_PNP_BCE"
+.ADD_COM     R5     "100K"
+.ADD_COM     Q1     "Q_NPN_BCE"
+.ADD_COM     R4     "10K"
+.ADD_COM     C5     "0.01uF"
+.ADD_COM     Q3     "Q_PMOS_DGS"
+.ADD_COM     D1     "D"
+.ADD_COM     D2     "D_Schottky"
+.ADD_COM     R2     "R"
+.ADD_COM     TZ1     "27V"
+.ADD_COM     C9     "0.1uF"
+.ADD_COM     U2     "TLC274"
+.ADD_COM     R6     "750"
+.ADD_COM     D3     "LED"
+.ADD_COM     C2     "0.1uF"
+.ADD_COM     C1     "47uF"
+.ADD_COM     F1     "FUSE"
+.ADD_COM     Bt1     "12_V"
+.ADD_COM     Solar1     "5W"
+
+
+.ADD_TER   R7   2     "Net-(C6-Pad2)"
+.TER       R5   1
+            U2   6
+            R6   2
+            C6   2
+            U2   1
+
+.ADD_TER   U1   VO     "Net-(C3-Pad1)"
+.TER       R13   2
+            C3   1
+
+.ADD_TER   Q2   2     "Net-(Q2-Pad2)"
+.TER       R13   1
+
+.ADD_TER   Q1   2     "Net-(C5-Pad1)"
+.TER       R4   1
+            C5   1
+            Q3   2
+
+.ADD_TER   Q2   3     "Net-(Q2-Pad3)"
+.TER       Q3   1
+
+.ADD_TER   Q1   3     "GND"
+.TER       C8   2
+            U1   GND
+            C3   2
+            C4   2
+            C9   2
+            TZ1   1
+            R2   2
+            C5   2
+            Solar1   2
+            Bt1   2
+            C1   2
+            C2   2
+            U2   11
+            C7   2
+            R11   2
+            U2   4
+
+.ADD_TER   K2   2     "Net-(K2-Pad2)"
+.TER       R1   2
+
+.ADD_TER   VR1   1     "Net-(R1-Pad1)"
+.TER       R12   1
+            R1   1
+
+.ADD_TER   Q3   3     "Net-(D1-Pad2)"
+.TER       D1   2
+
+.ADD_TER   R10   1     "Net-(R10-Pad1)"
+.TER       R9   2
+
+.ADD_TER   F1   2     "Net-(Bt1-Pad1)"
+.TER       Bt1   1
+
+.ADD_TER   R7   1     "Net-(C6-Pad1)"
+.TER       R9   1
+            K1   1
+            R8   2
+            C6   1
+
+.ADD_TER   U1   VI     "Net-(C4-Pad1)"
+.TER       C4   1
+            R8   1
+            K1   2
+
+.ADD_TER   D2   1     "Net-(D2-Pad1)"
+.TER       Q2   1
+
+.ADD_TER   R2   1     "Net-(D2-Pad2)"
+.TER       D2   2
+
+.ADD_TER   R4   2     "Net-(C9-Pad1)"
+.TER       C9   1
+            Solar1   1
+            TZ1   2
+
+.ADD_TER   D3   2     "Net-(D3-Pad2)"
+.TER       U2   7
+
+.ADD_TER   D3   1     "Net-(D3-Pad1)"
+.TER       R6   1
+
+.ADD_TER   R10   2     "Net-(C8-Pad1)"
+.TER       C8   1
+
+.ADD_TER   R5   2     "Net-(Q1-Pad1)"
+.TER       Q1   1
+
+.ADD_TER   C7   1     "Net-(C7-Pad1)"
+.TER       R11   1
+            VR1   3
+            U2   5
+            U2   3
+
+.ADD_TER   F1   1     "Net-(C1-Pad1)"
+.TER       C1   1
+            D1   1
+            C2   1
+            K2   1
+            R12   2
+
+.END

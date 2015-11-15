@@ -1,0 +1,11 @@
+ERC report (11/01/15 21:03:16, Encoding UTF8 )
+
+***** Sheet /
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (45.72 mm,85.09 mm): Pin 1 (Power input) of component #PWR01 is not driven (Net 6).
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (100.33 mm,58.42 mm): Pin 2 (Input) of component U2 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (54.61 mm,49.53 mm): Pin 2 (Passive) of component VR1 is unconnected.
+
+ ** ERC messages: 3  Errors 0  Warnings 3

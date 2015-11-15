@@ -1,0 +1,8 @@
+### Module positions - created on 11/15/15 04:09:02 ###
+### Printed by Pcbnew version kicad 4.0.0-rc1-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+TZ1      27V              SMB_Handsolderin  121.0000   -68.0000       0.0    top
+U2       324URJA          SSOP-14            81.0000  -117.0000       0.0    top
+## End
